@@ -26,7 +26,7 @@ I am a passionate Full Stack Software Developer with over 1 year of hands-on exp
 #### **How to Connect:**
 I am excited to discuss how my skills can contribute to your projects. Feel free to reach out:
 - **Email:** nafichasani@gmail.com
-- **Telegram:** (t.me/Abdunmobile)
+- **Telegram:** [Connect with me on Telegram](https://t.me/Abdunmobile)
 
 #### **Let's Collaborate:**
 Whether it's enhancing existing projects or starting something new, I am eager to collaborate on innovative solutions. Let's bring your ideas to life together!
