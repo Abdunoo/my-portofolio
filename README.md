@@ -8,7 +8,7 @@ I am a passionate Full Stack Software Developer with over 1 year of hands-on exp
 - **Technologies Used:**
   - Frontend: Angular, Tailwind CSS
   - Backend: Java, Quarkus Framework
-- **Live Demo:** [Explore the application here](https://sandbox.panemu.com)
+- **Source Code:** [Show here](https://github.com/Abdunoo/frends-app)
 
 #### **Key Contributions:**
 1. **Responsive Frontend:**
