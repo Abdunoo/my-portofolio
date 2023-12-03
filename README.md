@@ -1,8 +1,8 @@
-### **Portfolio: Abdun Nafi' - Full Stack Software Developer**
+### **Portfolio: Abdun Nafi' - Web Developer**
 - **Live :** [Show here](https://sandbox.panemu.com/portofolio/dashboard)
 
 #### **Overview:**
-I am a passionate Full Stack Software Developer with over 1 year of hands-on experience, specializing in creating dynamic and efficient applications. My expertise lies in utilizing Angular with Tailwind CSS for the frontend and Java with the Quarkus framework for robust backend development.
+I am a passionate Web Developer with over 1 year of hands-on experience, specializing in creating dynamic and efficient applications. My expertise lies in utilizing Angular with Tailwind CSS for the frontend and Java with the Quarkus framework for robust backend development.
 
 #### **Featured Project: frends app**
 - **Description:** An Instagram-like application designed and developed to provide a seamless social media experience.
