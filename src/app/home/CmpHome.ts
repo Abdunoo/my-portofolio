@@ -7,17 +7,21 @@ import { PrvHome } from './PrvHome';
 	styleUrls: ['./CmpHome.scss']
 })
 export class CmpHome implements OnInit {
-	  isDropdownOpen = false;
+	isDropdownOpen = false;
 
 	showHome = false
 	showSkill = false
 	showPorto = false
 	showTech = false
+	showTailwind = false
+	showContact = false
 
 	@ViewChild('home') divHome!: ElementRef;
 	@ViewChild('skill') divSkill!: ElementRef;
 	@ViewChild('technology') divTech!: ElementRef;
 	@ViewChild('portofolio') divPorto!: ElementRef;
+	@ViewChild('tailwind') divTailwind!: ElementRef;
+	@ViewChild('contact') divContact!: ElementRef;
 
 
 	constructor(private prvHome: PrvHome
@@ -33,6 +37,8 @@ export class CmpHome implements OnInit {
 		const skill = this.divSkill.nativeElement.getBoundingClientRect();
 		const porto = this.divPorto.nativeElement.getBoundingClientRect();
 		const tech = this.divTech.nativeElement.getBoundingClientRect();
+		const tail = this.divTailwind.nativeElement.getBoundingClientRect();
+		const contact = this.divContact.nativeElement.getBoundingClientRect();
 
 		if (home.top >= 0) {
 			setTimeout(() => { this.showHome = true; });
@@ -44,7 +50,13 @@ export class CmpHome implements OnInit {
 			setTimeout(() => { this.showPorto = true; });
 		} else if (tech.top >= 0) {
 			console.log('test tech')
-			this.showTech = true
+			setTimeout(() => { this.showTech = true; });
+		}else if (tail.top >= 0) {
+			console.log('test tech')
+			setTimeout(() => { this.showTailwind = true; });
+		}else if (contact.top >= 0) {
+			console.log('test tech')
+			setTimeout(() => { this.showContact = true; });
 		}
 	}
 
@@ -67,10 +79,11 @@ export class CmpHome implements OnInit {
 	}
 
 	handleButtonClick(section: string): void {
-		this.isDropdownOpen = false;
-		this.scrollTo(section);
-	 }
-	 
+		this.prvHome.scrollTo(section);
+		this.isDropdownOpen = false
+		console.log('nav')
+	}
+
 
 
 
