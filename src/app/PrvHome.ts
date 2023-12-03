@@ -15,18 +15,6 @@ export class PrvHome {
 		}
 	}
 
-	// scrollToElementById(id: '') {
-	// 	const element = document.getElementById(id)
-	// 	this.scrollToElement(element);
-	// }
-
-	// private getElementById(id: string): HTMLElement {
-	// 	console.log("element id : ", id);
-	// 	const element = document.getElementById(id);
-	// 	return element[0]
-
-	// }
-
 	scrollToElement(element: HTMLElement) {
 		element.scrollIntoView({ behavior: "smooth" });
 	}
